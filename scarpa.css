@@ -1,0 +1,142 @@
+body{background: #99999999;	margin: 0;	padding: 0;}
+
+.wrapper{width: 100%, auto, auto;	margin: 0;	padding: 0;}
+
+*{margin: 0;}
+
+.top-header{background: #000;	padding: 5px;
+}.top-header span{margin-left: 300px;	color: #FFF;	font-family: arial;	font-size: 14px;}
+
+
+.container{	width: 100%, auto;	background: #FFF;}
+.container .header-nav{	padding: 30px;}
+.container .left-menu ol li{list-style: none;	font-family: arial;	font-size: 14px;	display: inline;}
+.container .left-menu ol li a{color: #000;	text-decoration: none;	padding: 10px;}
+.container .right-menu{position: relative;	margin-left: 400px;	margin-top: -20px;}
+.container .right-menu button{margin-bottom: 0px; 	background: none;	border: none;	outline: none;	font-family: tahoma;	font-size: 12px; margin-left: -3px;
+}.container .right-menu .pages:hover button{transform: rotate(90deg); cursor: pointer;}
+.container .right-menu ol li{list-style: none;	font-family: arial;	font-size: 14px;	display: inline; padding: 5px;
+}.container .right-menu ol li:first-child{margin-left: 0px;
+}.container .right-menu .sub-list{position: absolute; background: #FFF; margin: 0; padding: 0; margin-left: -21px; margin-top: 10px; display: none;
+}.container .right-menu ul li:hover .sub-list{display: block;}
+.container .right-menu .sub-list ul li{list-style: none; display: block; margin-left: -40px; padding: 15px;
+}.container .right-menu .sub-list ul li a{text-decoration: none; color: #333333;
+}.container .right-menu .sub-list ul li:hover{background: #999999;}
+.container .right-menu .pages{padding-top:20px; padding-bottom: 20px; cursor: pointer;}
+.container .right-menu  .pages:hover .sub-list{display: block; cursor: pointer;}
+.container .right-menu ol li a{color: #000;	text-decoration: none;	padding: 10px;}
+
+.advert img{width: 100%;	height: 680px;
+}.advert .top-message{position: absolute;	margin-top: -450px;	margin-left: 30px;
+}.advert .top-message span{ width: 50px; line-height: 30px;	font-family: arial;	font-size: 16px;	color: #FFF; margin-top: -50px;
+}.advert .top-message figure{line-height: 50px;	font-family: arial;	font-size: 22px;	color: #FFF;	width: 430px; cursor: pointer;
+}.advert .top-message input{background: none;	font-family: arial;	font-size: 16px;	color: #FFF;	border: 2px solid #FFF;	outline: none;
+	padding-top: 10px;	padding-bottom: 10px;	padding-left: 30px;	padding-right: 30px;	margin-top: 20px;
+}.advert .top-message input[type="button"]:hover{background: #FFF; color: #000; transition: .5s;}
+
+.post-1{width: auto;	margin-top: 150px;	margin-left: 0; padding: 10px;
+}.post-1 h4{font-family: arial;
+}.post-1 figure{font-family: arial;	font-size: 16px;	width: 130px;	margin-left: 450px;	text-align: center;	color: #444444;
+	font-weight: bold;	margin-bottom: 20px;
+}.post-1 .sub-post fig{position: absolute;	margin-left: -200px;	margin-top: 120px;	font-family: arial;	color: #FFF;	font-size: 30px;
+	font-weight: bold;	text-align: center; width: 150px;
+}.post-1 .sub-post fig2{position: absolute;	margin-left: -200px;	margin-top: 120px;	font-family: arial;	color: #FFF;	font-size: 30px;
+	font-weight: bold;	text-align: center; width: 150px;
+}.post-1 .sub-post input{background: none;	border: 1px solid #FFF;	padding-top: 10px;	padding-bottom: 10px;	padding-right: 30px;
+	padding-left: 30px;	margin-top: 7px;	color: #FFF;
+}.post-1 .sub-post input:hover{ background: #FFF; color: #000; transition: .3s;
+}.post-1 .sub-post .img-1:hover fig{transition: .5s;
+}.post-1 .sub-post img{width: 230px;	height: 300px;	margin: 5px;
+}.post-1 .sub-post span{width: 170px;
+}.post-1 .sub-post element{width: 230px;	line-height: 25px;	position: absolute;	margin-top: 305px;	margin-left: -237px;	font-family: arial;
+	font-size: 18px;
+}.post-1 .sub-post element p{color: #888888;
+}.post-1 .sub-post .img-hover-1{position: absolute;	margin-left: -238px;	width: 230px;	height: 300px;	visibility: hidden;
+}.post-1 .sub-post .img-hover-2{position: absolute;	margin-left: -239px;	width: 230px;	height: 300px;	visibility: hidden;
+}.post-1 .sub-post .img-hover-3{position: absolute;	margin-left: -238px;	width: 230px;	height: 300px;	visibility: hidden;
+}.post-1 .sub-post .img-hover-4{position: absolute;	margin-left: -235px;	width: 230px;	height: 300px;	visibility: hidden;
+}.post-1 .img-1:hover .img-hover-1{visibility: visible;	transition: .5s;
+}.post-1 .img-2:hover .img-hover-2{visibility: visible;
+}.post-1 .img-3:hover .img-hover-3{visibility: visible;
+}.post-1 .img-4:hover .img-hover-4{visibility: visible;}
+
+.sub-post-1{width: auto;	margin-top: 80px;	margin-left: 0; padding: 10px;
+}.sub-post-1 h4{font-family: arial;
+}.sub-post-1 .sub-post img{width: 230px;	height: 300px;	margin: 5px;
+}.sub-post-1 .sub-post span{width: 170px;
+}.sub-post-1 .sub-post element{width: 230px;	line-height: 25px;	position: absolute;	margin-top: 305px;	margin-left: -237px;	font-family: arial;
+	font-size: 18px;
+}.sub-post-1 .sub-post element p{color: #888888;
+}.sub-post-1 .sub-post .img-hover-1{position: absolute;	margin-left: -238px;	width: 230px;	height: 300px;	visibility: hidden;
+}.sub-post-1 .sub-post .img-hover-2{position: absolute;	margin-left: -239px;	width: 230px;	height: 300px;	visibility: hidden;
+}.sub-post-1 .sub-post .img-hover-3{position: absolute;	margin-left: -238px;	width: 230px;	height: 300px;	visibility: hidden;
+}.sub-post-1 .sub-post .img-hover-4{position: absolute;	margin-left: -235px;	width: 230px;	height: 300px;	visibility: hidden;
+}.sub-post-1 .img-1:hover .img-hover-1{visibility: visible;	transition: .5s;
+}.sub-post-1 .img-2:hover .img-hover-2{visibility: visible; transition: .5s;
+}.sub-post-1 .img-3:hover .img-hover-3{visibility: visible; transition: .5s;
+}.sub-post-1 .img-4:hover .img-hover-4{visibility: visible; transition: .5s;}
+
+.post-2{width: auto;	margin-top: 150px;	margin-left: 30px;
+}.post-2 img{width: 300px;
+}.post-2 .plugin{width: 300px;	padding: 20px;
+}.post-2 .plugin strong{position: absolute;	font-size: 40px;	font-family: arial;	color: #222222;
+}.post-2 .shoes .quote{position: absolute;	width: 390px;	font-size: 14px;	font-family: arial;	color: #555555;	margin-top: 50px;
+	margin-left: 20px;
+}.post-2 .img{width: 200px;	margin-left: 500px;
+}.post-2 .img img{width: 400px;	height: 300px;
+}.post-2 .img-2{margin-top: 30px;	margin-bottom: 
+}.post-2 .img-2 img{width: 270px;	height: 230px;}
+
+.advert-2{margin-top: 200px;	margin-left: 30px;
+}.advert-2 .advert-post img{width: 310px;	height: 250px;	margin-left: 5px;
+}.advert-2 .advert-post img:hover{ height: 255px; transition: .5s
+}.advert-2 .advert-post element{position: absolute;	background: #FFF;	width: 250px;	padding: 15px;	margin-left: -300px;	margin-top: 180px;
+	font-family: arial;	line-height: 20px;	font-size: 12px;	text-align: center;
+}.advert-2 .advert-post .img-3 element{position: absolute;	background: #FFF;	width: 250px;	padding: 15px;	margin-left: -295px;	margin-top: 180px;
+	font-family: arial;	line-height: 20px;	font-size: 12px;	text-align: center;
+}.advert-2 .advert-post h6{font-family: arial;	font-size: 10px;	text-transform: uppercase;	color: #888888;	margin-bottom: -10px;
+}.advert-2 .advert-post strong{font-family: arial;	font-size: 14px;	margin-bottom: 50px;	color: #333333;
+}.advert-2 element p{color: #888888; font-size: 14px;
+}.advert-2 .advert-post figure{line-height: 30px;	font-family: arial;	font-size: 30px;	color: #333333;	margin-bottom: 20px;	width: 300px;
+	margin-left: 5px;
+}
+
+.footer-post{width: auto;	margin-top: 200px;	margin-left: 30px;
+}.footer-post figure{font-family: arial;	font-size: 16px;	width: 130px;	margin-left: 400px;	text-align: center;	color: #444444;
+	font-weight: bold;	margin-bottom: 20px;
+}.footer-post .sub-post img{width: 240px;	height: 230px;	margin-right: -5px;
+}.footer-post .sub-post span{width: 170px;
+}.footer-post .sub-post element p{color: #888888;
+}.footer-post .sub-post .img-1:hover img{opacity: .3;
+}.footer-post .sub-post .img-2:hover img{opacity: .3;
+}.footer-post .sub-post .img-3:hover img{opacity: .3;
+}.footer-post .sub-post .img-4:hover img{opacity: .3;
+}.footer-post .sub-post .img-1:hover .img-hover-1{opacity: 100%;
+}.footer-post .sub-post .img-2:hover .img-hover-2{opacity: 100%;
+}.footer-post .sub-post .img-3:hover .img-hover-3{opacity: 100%;
+}.footer-post .sub-post .img-4:hover .img-hover-4{opacity: 100%;
+}.footer-post .sub-post .img-hover-1{position: absolute; margin-top: 70px;	margin-left: -139px;	width: 41px;	height: 90px;	visibility: hidden;
+}.footer-post .sub-post .img-hover-2{position: absolute; margin-top: 70px;	margin-left: -139px;	width: 41px;	height: 90px;	visibility: hidden;
+}.footer-post .sub-post .img-hover-3{position: absolute; margin-top: 70px;	margin-left: -139px;	width: 41px;	height: 90px;	visibility: hidden;
+}.footer-post .sub-post .img-hover-4{position: absolute; margin-top: 70px;	margin-left: -130px;	width: 41px;	height: 90px;	visibility: hidden;
+}.footer-post .img-1:hover .img-hover-1{visibility: visible;	transition: .5s;
+}.footer-post .img-2:hover .img-hover-2{visibility: visible;
+}.footer-post .img-3:hover .img-hover-3{visibility: visible;
+}.footer-post .img-4:hover .img-hover-4{visibility: visible;
+}.footer-post .sub-post a{text-decoration: none;
+}.footer-post figure h6{color: #777799; margin-bottom: -10px;
+}
+
+.plugin-2{text-align: center; padding: 10px; margin-top: 200px;
+}.plugin-2 figure{font-family: sans-serif; font-size: 30px; width: 300px; margin-left: 350px;
+}.plugin-2 figure input{background: none; border: 2px solid #999999; outline: none; padding-top: 10px; padding-bottom: 10px;
+padding-right: 20px; padding-left: 20px; margin-top: 20px; color: #555555; font-family: sans-serif; cursor: pointer;
+}.plugin-2 figure input:hover{background: #000; color: #FFF; border: 2px solid #000; transition: .6s;
+}.plugin-2 .widget img{width: 500px; height: 200px; margin-top: 50px;
+}.plugin-2 .plugin-3{position: relative; margin-top: 50px; margin-left: -500px; margin-bottom: 20px;
+}.plugin-2 .plugin-3 span{position: absolute; text-align: left; width: 150px; font-family: sans-serif; font-size: 12px;
+	line-height: 20px; color: #333333;
+}.plugin-2 .plugin-3 h5{font-size: 30px; margin-bottom: 10px;
+}.plugin-2 .plugin-3 strong{font-size: 14px;
+}.plugin-2 .plugin-3 .span-2{margin-left: 200px;
+}.plugin-2 .plugin-3 .span-3{margin-left: 400px;

@@ -1,0 +1,33 @@
+
+.footer{background: #000;	width: 100%, auto;	padding: 10px;	margin-top: 100px;
+}.footer .footer-nav{position: absolute; width: auto; padding: 10px; margin-left: 233px; margin-top: 20px;
+}.footer .footer-nav ol li{ list-style: none; font-family: arial; font-size: 12px; color: #FFF;
+display: inline; margin-left: 130px;	
+}.footer .left-bar{width: 300px;	padding: 10px; margin-top: 50px;
+}.footer .left-bar span img{width: 25px; margin-left: 5px;
+}.footer .left-bar blockquote{font-family: arial;	color: #FFF; font-size: 14px; width: 200px; line-height: 20px;
+}.footer .center-left{position: absolute; margin-top: -150px; margin-left: 373px;
+}.footer .center-left ol li{ list-style: none; font-family: arial; font-size: 12px; color: #FFF; display: block;
+}.footer .center-left ol li a{text-decoration: none; color: #FFF; line-height: 30px;
+}.footer .center-left ol li:hover a{color: #FFF; text-decoration: underline;
+}.footer .center-right{position: absolute; margin-top: -150px; margin-left: 537px;
+}.footer .center-right ol li{ list-style: none; font-family: arial; font-size: 12px; color: #FFF;
+	display: block;
+}.footer .center-right ol li a{text-decoration: none; color: #FFF; line-height: 30px;
+}.footer .center-right ol li:hover a{color: #FFF; text-decoration: underline;
+}.footer .right-bar{padding: 10px; margin-top: -155px; position: absolute; margin-left: 750px;
+}.footer .right-bar blockquote{font-family: arial;	color: #FFF; font-size: 14px; width: 200px; line-height: 20px;
+}.footer .right-bar blockquote a img{ width: 20px; border-radius: 50px; text-decoration: none;
+}.footer .right-bar img{width: 200px; height: 160px;
+}.footer .right-bar .subscribe{position: absolute; margin-top: -50px;
+}.footer .right-bar .subscribe input[type="email"]{ background: #FFF; padding: 15px; width: 170px; outline: none; border: none;
+}.footer .right-bar .subscribe input[type="button"]{background: #FFe599; padding: 15px; width: 200px; outline: none; border: none;
+ cursor: pointer;
+}.footer .right-bar .subscribe input[type="button"]:hover{background: #F9CB9C; transition: .3s;
+}.footer .footer-bottom{margin-top: 130px; margin-left: -30px;
+}.footer .footer-bottom ol li{ list-style: none; font-family: arial; font-size: 11px; color: #FFF;
+	display: inline; line-height: 25px; padding-right: 10px; padding-left: 5px; border-right: 1px solid #FFF;
+}.footer .footer-bottom ol li:last-child{	border: none;
+}.footer .footer-bottom ol li a{color: #888888;
+}.footer .footer-bottom ol li a:hover{color: #777777;
+}
