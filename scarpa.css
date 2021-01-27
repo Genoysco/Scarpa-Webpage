@@ -31,7 +31,7 @@ body{background: #99999999;	margin: 0;	padding: 0;}
 }.advert .top-message span{ width: 50px; line-height: 30px;	font-family: arial;	font-size: 16px;	color: #FFF; margin-top: -50px;
 }.advert .top-message figure{line-height: 50px;	font-family: arial;	font-size: 22px;	color: #FFF;	width: 430px; cursor: pointer;
 }.advert .top-message input{background: none;	font-family: arial;	font-size: 16px;	color: #FFF;	border: 2px solid #FFF;	outline: none;
-	padding-top: 10px;	padding-bottom: 10px;	padding-left: 30px;	padding-right: 30px;	margin-top: 20px;
+	padding-top: 10px;	padding-bottom: 10px;	padding-left: 30px;	padding-right: 30px;	margin-top: 20px; cursor: pointer;
 }.advert .top-message input[type="button"]:hover{background: #FFF; color: #000; transition: .5s;}
 
 .post-1{width: auto;	margin-top: 150px;	margin-left: 0; padding: 10px;
@@ -43,7 +43,7 @@ body{background: #99999999;	margin: 0;	padding: 0;}
 }.post-1 .sub-post fig2{position: absolute;	margin-left: -200px;	margin-top: 120px;	font-family: arial;	color: #FFF;	font-size: 30px;
 	font-weight: bold;	text-align: center; width: 150px;
 }.post-1 .sub-post input{background: none;	border: 1px solid #FFF;	padding-top: 10px;	padding-bottom: 10px;	padding-right: 30px;
-	padding-left: 30px;	margin-top: 7px;	color: #FFF;
+	padding-left: 30px;	margin-top: 7px;	color: #FFF; cursor: pointer;
 }.post-1 .sub-post input:hover{ background: #FFF; color: #000; transition: .3s;
 }.post-1 .sub-post .img-1:hover fig{transition: .5s;
 }.post-1 .sub-post img{width: 230px;	height: 300px;	margin: 5px;
